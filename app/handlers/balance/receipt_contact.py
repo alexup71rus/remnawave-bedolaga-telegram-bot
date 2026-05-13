@@ -52,12 +52,6 @@ async def process_receipt_email(
         await _return_to_previous_step(message, db_user, db, state)
         return
 
-    # Check if user pressed "Skip"
-    if email == texts.RECEIPT_SKIP:
-        await _cleanup_receipt_messages(message, state)
-        await _proceed_to_payment(message, db_user, db, state, receipt_email=None, skip_receipt=True)
-        return
-
     # Validate email
     if not validate_email(email):
         invalid_text = texts.RECEIPT_INVALID_EMAIL.format(email=email[:30])

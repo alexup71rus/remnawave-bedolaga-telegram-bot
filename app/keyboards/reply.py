@@ -86,7 +86,6 @@ def get_receipt_email_keyboard(language: str = 'ru', current_email: str | None =
     if current_email:
         keyboard.append([KeyboardButton(text=current_email)])
 
-    keyboard.append([KeyboardButton(text=texts.RECEIPT_SKIP)])
     keyboard.append([KeyboardButton(text=texts.CANCEL)])
 
     return ReplyKeyboardMarkup(
