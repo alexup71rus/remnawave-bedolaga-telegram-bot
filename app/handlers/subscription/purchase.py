@@ -580,7 +580,16 @@ async def show_subscription_info(callback: types.CallbackQuery, db_user: User, d
         ).format(subscription_url=subscription_link_display)
         message += '\n\n' + texts.t(
             'SUBSCRIPTION_CONNECT_LINK_PROMPT',
-            '📱 Скопируйте ссылку и добавьте в ваше VPN приложение',
+            '📱 Скопируйте ссылку и добавьте в ваше приложение Happ\n\n'
+            'Ссылка на приложение Happ\n\n'
+            'Android\n'
+            'https://play.google.com/store/apps/details?id=com.happproxy\n\n'
+            'iOS\n'
+            'https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973\n\n'
+            '- Скачайте и установите приложение Happ на ваше устройство\n'
+            '- Откройте приложение, справа вверху нажмите "+"\n'
+            '- Нажмите "Вставить из буфера обмена"\n'
+            '- Запустите подписку, пользуйтесь',
         )
 
     await callback.message.edit_text(
