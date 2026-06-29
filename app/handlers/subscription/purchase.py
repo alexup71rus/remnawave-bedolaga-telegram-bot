@@ -585,7 +585,7 @@ async def show_subscription_info(callback: types.CallbackQuery, db_user: User, d
             'Android\n'
             'https://play.google.com/store/apps/details?id=com.happproxy\n\n'
             'iOS\n'
-            'https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973\n\n'
+            'https://apps.apple.com/ru/app/happ-proxy-utility/id6783623643\n\n'
             '- Скачайте и установите приложение Happ на ваше устройство\n'
             '- Откройте приложение, справа вверху нажмите "+"\n'
             '- Нажмите "Вставить из буфера обмена"\n'
