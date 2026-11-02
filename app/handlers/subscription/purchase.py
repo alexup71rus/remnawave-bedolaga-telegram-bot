@@ -583,7 +583,7 @@ async def show_subscription_info(callback: types.CallbackQuery, db_user: User, d
             '📱 Скопируйте ссылку и добавьте в ваше приложение INCY\n\n'
             'Ссылка на приложение INCY\n\n'
             'Android\n'
-            'https://play.google.com/store/apps/details?id=com.happproxy\n\n'
+            'https://play.google.com/store/apps/details?id=llc.itdev.incy\n\n'
             'iOS\n'
             'https://apps.apple.com/ru/app/incy/id6756943388\n\n'
             '- Скачайте и установите приложение INCY на ваше устройство\n'
